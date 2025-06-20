@@ -1,6 +1,6 @@
-## ASSIGNMENT COMPLETION PROCEDURES
+## Midterm COMPLETION PROCEDURES
 
-Repeat the following steps for each of the exercises in this assignment.
+Repeat the following steps for each of the exercises in this midterm.
 
 1. **Follow the instructions to complete the exercise**
 
@@ -18,7 +18,7 @@ Repeat the following steps for each of the exercises in this assignment.
 
     **Option 1**
 
-    From the _terminal_, navigate to the appropriate assignment part subfolder
+    From the _terminal_, navigate to the appropriate midterm part subfolder
     using the `cd` command. For example:
     ```bash
     cd 01-hello/
@@ -53,13 +53,13 @@ Repeat the following steps for each of the exercises in this assignment.
     - If it is red, you possibly made a mistake. Check the error in the test "Test
       Results" tab on the view at the bottom of the screen (same location as the
       Terminal view)
-    - Repeat the above for each exercise in this assignment.
+    - Repeat the above for each exercise in this midterm.
 
 ## General Tips
 
 - Make sure to frequently save and push your changes to your GitHub repository.
 - Run your code after each significant modification.
-  + Also run the automated test for each exercise in this assignment after each
+  + Also run the automated test for each exercise in this midterm after each
     change when you are "done" but still tweaking.
 - Commit and sync your code before you stop working for the day to ensure that
   your repository and codspace stay in sync and you don't risk losing your work.
@@ -91,7 +91,7 @@ your assginments. However, you can always use the terminal.
       >   arrow and select Commit & Push.
 
 - Alternatively, you can use git to add, commit, and push your changes. Make
-  sure you are in your `assn-3-yourusername` folder. `cd` your way there if not.
+  sure you are in your `Midterm-yourusername` folder. `cd` your way there if not.
   Then type:
   
   ```bash
@@ -100,10 +100,9 @@ your assginments. However, you can always use the terminal.
   git push
   ```
 
-## Validate the Submission in GitHub and Submit to D2L
+## Validate the Submission in GitHub 
 
-The last step is to submit your assignment to D2L. But in order to do that, you
-**MUST** first validate that you correctly submitted the assignment to the
+The last step is to validate that you correctly submitted the assignment to the
 GitHub repository.
 
 - Visit the GitHub repository for this assignment
@@ -114,14 +113,3 @@ GitHub repository.
   + Click on the file to ensure that your changes are showing.
   + Look at the commit message to ensure that you commit message is as expected.
 
-- Now again back on the `<> Code` tab, look near the top right for something
-  that looks like this:
-
-  ![GitHub Commit ID](.res/commit_id.png)
-  
-  Copy that 7-digit number (it's hexadecimal, so there may be letters, too).
-
-- Return to D2L and paste that ID into the submission comment for this
-  assignment.
-
-- Submit the assignment in D2L.

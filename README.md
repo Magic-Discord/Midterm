@@ -1,52 +1,52 @@
-# Assignment 9: While Loops
+# Midterm Practical: Input Validation and Loop Control
 
-This week, you'll be delving into the `while` loop construct to practice with
-indefinite (and infinite) looping. Looping is one of the most fundamental
-control structures in any programming language. It is simple in concept, but
-often difficult to put into practice effectively. We're focusing on a few useful
-patterns of use to start with.
+This midterm will test your understanding of **user input**, **boolean logic**, and **loop control** using `while` loops. These are fundamental patterns in Python programming and critical for building reliable, user-facing programs.
 
 ## Learning Objectives
 
-1. Learn the basic structure of a `while` loop.
-2. Prctice using `while` loops for:
+1. Practice the structure and execution of `while` loops
+2. Use `while` loops for:
    - Input validation
-   - Counter controlled loops
-   - Accumulating values
-3. Learn the early break and early continue strategies.
+   - Sentinel-controlled input
+   - Conditional checks and accumulation
+3. Return meaningful values from user-defined functions
+4. Strengthen your ability to debug and test with provided files
 
-## Assignment Structure
+## Midterm Structure
 
-The assignment is structured into the following exercise folders under the root
-folder `assn-9-yourusername/`:
+The midterm consists of two coding problems. Each problem lives in its own subdirectory inside your root folder (named `midterm-yourusername/`). You are required to complete the `.py` file in each folder and use the provided test files to verify correctness.
 
-- `01-get_int`
-- `02-blastoff`
-- `03-guess`
-- `04-stats`
+- `01-get_yes_no`  
+  Build a function that repeatedly prompts the user for a `'yes'` or `'no'` response until a valid answer is given.
 
-Each folder contains specific tasks that you need to complete.
+- `02-count_positive`  
+  Count how many positive numbers a user enters until they type `0`, and then print the result.
 
-## Assignment Completion Procedures
+Each folder contains:
 
-You will complete and submit this assignment in a similar way to prior
-assignments. To avoid cluttering up this README with the same instructions each
-time, they have been broken out into a separate file. Please reference
-[PROCEDURES.md](PROCEDURES.md) to see the details if you have forgotten.
+- A starter Python script (`.py`)
+- A markdown README file with instructions
+- A `tests/` folder containing a test file for validating your solution
 
-In summary:
+## Midterm Completion Procedures
 
-  1. Complete the code for each exercise per the instructions
-  2. Run the scripts to test and debug
-  3. Execute the automated tests to ensure expected functionality
+You should complete and submit this midterm the same way as prior assignments. For full details, refer to the [PROCEDURES.md](PROCEDURES.md) file.
 
-When finished, do not forget to:
+**In summary:**
 
-1. Commit and Sync:
-    - Switch to version control tab
-    - Stage all changed files
-    - _**Enter a commit message**_
-    - Click Commit
-    - Click Sync
-2. Validate your submission in GitHub
-3. Submit the final commit ID in D2L
+1. Complete the code for each exercise as described in the respective README
+2. Run your script and use the test file inside `tests/` to ensure correct behavior
+3. When finished, commit and sync your work
+
+### Submission Checklist:
+
+1. ✅ Implement solutions for both exercises  
+2. ✅ Run and pass the provided tests  
+3. ✅ Use version control to:
+   - Stage all changed files
+   - Enter a commit message
+   - Commit and sync
+4. ✅ Confirm your submission is visible on GitHub
+5. ✅ Submit the final commit ID in D2L
+
+Good luck — and don’t forget to read error messages carefully!
